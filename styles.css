@@ -138,7 +138,9 @@ img{
     margin-bottom: 1rem;
 }
 
-/* Media Queries */
+
+
+/* ========Media Queries ========*/
 @media screen and (min-width : 991px ){
     .feature-content {
         display: flex;
@@ -146,28 +148,21 @@ img{
     }
 }
 
-@media screen and (max-width : 450px ){
-    .col-xs-12 {
-        min-height: 70%;
-        padding: 2rem;
+@media screen and (max-width : 450px ){    
+    .feature-content{
+        margin: 2rem 0 0 0 ;
+        padding: 1rem 0.2rem;
     }
     
-    .feature-content {
-        padding: 2rem 0;
-    }
-    
-    #feature-one .feature-content div{
-        margin:0;
-        padding: 0.5rem;
-    }
-    
-    #feature-one .feature-content p{
-        visibility: hidden;
-        height: 2rem;
-    }
-    
-    #feature-three {
+    #feature-one .feature-content img{
         margin-bottom: 2rem;
-        overflow: visible;
+    }
+    
+    #feature-three .feature-content {
+        margin-bottom: 2rem 0 0 0;
+    }
+    
+    #feature-three img {
+        margin-bottom: 2rem;
     }
 }
