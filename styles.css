@@ -79,7 +79,7 @@ img{
 
 
 .feature-content {
-    padding: 8rem 0;
+    padding: 6rem 0;
     overflow: hidden;
 }
 
@@ -143,5 +143,31 @@ img{
     .feature-content {
         display: flex;
         align-items: center;
+    }
+}
+
+@media screen and (max-width : 450px ){
+    .col-xs-12 {
+        min-height: 70%;
+        padding: 2rem;
+    }
+    
+    .feature-content {
+        padding: 2rem 0;
+    }
+    
+    #feature-one .feature-content div{
+        margin:0;
+        padding: 0.5rem;
+    }
+    
+    #feature-one .feature-content p{
+        visibility: hidden;
+        height: 2rem;
+    }
+    
+    #feature-three {
+        margin-bottom: 2rem;
+        overflow: visible;
     }
 }
