@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+/*    font-family: 'Gamja Flower', cursive;*/
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*===Heading===*/
+#heading{
+/*    margin: 2rem auto;*/
+    padding: 4rem 0;
+    background: #eee;
+}
+
+#heading h2{
+    color: #C22019;
+}
+
+#heading h4{
+    color: dimgrey;
+}
+
+/*===Benefits===*/
+#benefits{
+    background: #fff;
+    margin: 1rem auto;
+    padding: 3rem 1rem;
+}
+
+#benefits ul li{
+    line-height: 35px;
+    list-style-image: url('images/arrow.png');
+    font-size: 1.1rem;
+}
+
+
+#benefits img{
+    width: 100%;
+}
+
+#benefits h4{
+    margin-bottom: 2rem;
+    padding: .5rem;
+    box-shadow: 3px 3px #ccc
+}
+
+
+/*===Who===*/
+#who{
+    background: #60605E;
+    color:#fff;
+}
+
+#who .row{
+    margin: 1rem auto;
+    padding: 8rem 3rem;
+    line-height: 35px;
+}
+
+#projects {
+    margin: 5rem auto;
+}
+
+#projects h3{
+    text-transform: uppercase;
+    margin: 1rem auto;
+}
+
+#faqs{
+    background: #ccc;
+    margin: 1rem auto 0 auto;
+    padding: 2rem 0 5rem 0;
+}
+
+#faqs .faq{
+    margin-bottom: 3rem;
+    padding: 1rem;
+}
+
+/*===Footer===*/
+footer {
+    background: #000;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+footer p{
+    color: dimgray;
+}
+
+footer a{
+    color: dimgray;
+}
+
+footer a:hover{
+    color:#fff;
+}
