@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!--    Bootstrap CSS-->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+   
+    <!--   Custom CSs-->
+   <link rel="stylesheet" href="styles.css">
+    <title>Lucent :: Home</title>
+    <style>
+      .row .col-md-4 .panel{
+          position: fixed;
+          top: 40px;
+          right: 10px;
+          width: 28%;
+          /* border: solid 1px #0072BC; */
+          background: #fff;
+          padding: 10px;
+      }
+
+      .row .col-md-4 .panel img {
+        width: 100%;
+      }
+
+      .well {
+        margin: 20px 0;
+        background: rgb(221, 233, 51);
+        padding: 10px;
+        color: orangered;
+      }
+
+      @media (min-width: 400px) and (max-width: 1000px) {
+        #quick-info {
+          display: none;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-light bg-light fixed-top navbar-expand-md">
+  <a class="navbar-brand" href="#"><h3 class="text-primary">
+    LUCENT<span class="text-warning">AFRICA</span>
+  </h3></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav "> <!----pull right -->
+      <li class="nav-item ">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="web-design.html">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Training <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<section id="courses"> 
+    <div class="container"> 
+      <hr>
+       <h3 class="text-center text-muted">Complete WordPress Course for Beginners</h3>
+       <p class="lead text-center">Learn how to build a responsive website and news/magazine blog from scratch!</p>
+       
+       <hr>
+        
+       <div class="row">
+       <div class="col-md-1"></div>
+        <div class="col-md-10 col-sm-12">
+          <div class="shadow p-3 mb-5 bg-white rounded">
+            <h3>What you will learn</h3>
+            <p class="lead">At the end of the course, you will be able to use WordPress to build the following:</p>
+            <ul>
+              <li>Business / Personal website </li>
+              <li>Blog</li>
+              <li>Photo Gallery</li>
+              <li>Portfolio</li>
+              <li>e-Commerce Store</li>
+              <li>Video collection site</li>
+              <li>Membership site</li>
+              <li>Resume</li> 
+              <li>etc</li> 
+          </ul>
+          </div>
+    
+          <div class="shadow p-3 mb-5 bg-white rounded">
+            <h3>Requirements</h3>
+            <ul>
+              <li>We will teach you everything. All you need is a working computer.</li>
+              <li>You don't need to have any coding or programming skills.</li>
+              <li>This course has no prerequisite knowledge. It is completely comprehensive and will take you from zero-skills to professional WordPress Web Developer.</li>
+            </ul>
+          </div>
+    
+          <div class="well">
+            <h3>When you complete this course, you would have built a nice company website with a blogging end.</h3>
+          </div>
+    
+          <div class="shadow p-3 mb-5 bg-white rounded">
+            <h3>Target Audience</h3>
+            <ul>
+              <li>Those who have no web development knowledge or experience.</li>
+              <li>Professionals who love to share their knowlege via blogging and make some money in return.</li>
+              <li>Those who wish to sell their products with an ecommerce store.</li>
+            </ul>
+          </div>
+    
+          <div class="shadow p-3 mb-5 bg-white rounded">
+            <h3>Course Content</h3>
+              <ul>
+                <li>Installing Wordpress</li>
+                <li>Installing A Wordpress Theme </li>
+                <li>Customizing Themes and Settings</li>
+                <li>Creating Pages and Using Visual Editor</li>
+                <li>Creating Navigation Menus</li>
+                <li>Setting Up A Slide Show And Featured Pages On The Home Page</li>
+                <li>Linking Social Media Pages To Your Site</li>
+                <li>Adding Social Media Functionality To Your Pages And Blog Posts</li>
+                <li>Using Wordpress Plugins</li>
+                <li>Creating A Contact Form</li>
+                <li>Setting Up and Organizing A Blog</li>
+                <li>Using Widgets and Sidebar Layouts</li>
+                <li>Basic Wordpress Settings and More</li>
+            
+            </ul>       
+          </div>
+  
+          <div class="shadow p-3 mb-5 bg-white rounded text-center">
+            <h4 class="text-muted">
+              Training fee: N20,000 <br> 
+              <small>08060911051 | lucentnigeria@gmail.com</small>
+            </h4>
+            <hr>
+            <a class="text-warning" href="web-design.html">Check our web design packages</a>
+          </div>
+  
+        </div>
+  
+        
+      </div>
+
+    </div> 
+</section>
+
+
+  
+   <footer id="main-footer">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-6">
+                   <p class="lead">Providing innovative software solutions in Africa <br> <a href="http://www.lucent.com.ng">&copy; Lucent Digital Systems</a> 
+                   </p>
+               </div>
+               <div class="col-md-2">
+                   <h6>Our products</h6>
+                   <ul class="list-unstyled">
+                       <li><a href="">Web Apps</a></li>
+                       <li><a href="">Mobile Apps</a></li>
+                       <li><a href="">E-Learning Solutions</a></li>
+                   </ul>
+               </div>
+               <div class="col-md-2">
+                   <h6>Trainings</h6>
+                   <ul class="list-unstyled">
+                       <li><a href="">Full Stack</a></li>
+                       <li><a href="">Front End</a></li>
+                       <li><a href="">Back End</a></li>
+                       <li><a href="">Mobile</a></li>
+                   </ul>
+               </div>
+               <div class="col-md-2">
+                   <h6>Contact</h6>
+                   <ul class="list-unstyled">
+                       <li><a href="">hello@lucentdigital.com.ng</a></li>
+                       <li><a href="">0806 091 1051</a></li>
+<!--                       <li><a href="">FAQ</a></li>-->
+                   </ul>
+               </div>
+           </div>
+       </div>
+   </footer>
+    
+    
+    
+<!-- jQuery first, then Bootstrap JS.   -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
+</html>
